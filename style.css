@@ -1,0 +1,59 @@
+#total {
+  border-collapse: collapse;
+  width: 60%;
+  background-position: center;
+  margin: 0px auto;
+  padding: 20px;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+/* table,
+thead,
+tbody,
+tr {
+  border-radius: 10px;
+} */
+#total td,
+#main th {
+  border: 0, 1px solid;
+  padding: 8px;
+  text-align: center;
+  border-radius: 10 10 10 10;
+}
+#total tr:nth-child(even) {
+  background-color: rgb(199, 199, 199);
+}
+
+/* table:hover {
+  background-color: rgb(240, 212, 212);
+} */
+#total th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(28, 27, 27);
+  color: aliceblue;
+}
+div {
+  /* background-color: blueviolet; */
+  width: 100%;
+  height: 1000px;
+  /* margin: 30px; */
+  background-size: cover;
+  background-position: center;
+}
+#total tr:nth-child(odd) {
+  background-color: white;
+}
+body {
+  background-color: blueviolet;
+}
+/* #total tr :hover{
+  background-color: rgb(205, 179, 230);
+} */
+/* table :hover{
+  background-color: rgb(227, 213, 241);
+} */
+#total :hover {
+  background-color: rgb(207, 181, 232);
+}
